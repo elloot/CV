@@ -4,17 +4,26 @@
     box-sizing: border-box;
 }
 
+main {
+    margin: 0 auto;
+}
+
 .navbar {
     font-family: Lato;
     height: 55px;
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: white;
     justify-content: space-between;
     padding: 0 10%;
+    border-bottom: 2px solid black;
+}
+
+.socialLinks a {
+    margin: 5px;
+    display: inline-block;
 }
 
 .socialLinks img {
-    margin: 5px;
     color: black;
 }
