@@ -5,7 +5,9 @@
 }
 
 main {
+    width: 75%;
     margin: 0 auto;
+    font-family: Lato;
 }
 
 .navbar {
@@ -26,4 +28,16 @@ main {
 
 .socialLinks img {
     color: black;
+}
+
+.pageHeading {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pageHeadingText {
+    font-size: 2em;
+}
+
+.pageHeadingPortrait {
 }
