@@ -52,7 +52,7 @@ h1 {
     justify-content: space-evenly;
 }
 
-.pageHeadingPortrait > img {
+.pageHeadingPortrait img {
     border-radius: 360px;
 }
 
@@ -74,4 +74,8 @@ h3 {
 .aboutMeContent {
     margin: 5px 0;
     font-size: 1.1em;
+}
+
+.locationWrapper {
+    width: 80%;
 }
