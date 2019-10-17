@@ -7,7 +7,7 @@
 main {
     width: 75%;
     margin: 0 auto;
-    font-family: Lato;
+    font-family: "Lato";
 }
 
 .navbar {
@@ -35,9 +35,45 @@ main {
     margin: 0 auto;
 }
 
-.pageHeadingText {
-    font-size: 2em;
+.pageHeadingTitle {
+    font-size: 5em;
+    display: flex;
+    margin: 10px 0;
+    /*align-items: center;
+    justify-content: space-evenly;*/
+}
+
+.pageHeadingTitle > h1 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .pageHeadingPortrait {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pageHeadingPortrait > img {
+    border-radius: 360px;
+}
+
+.aboutMe {
+    width: 450px;
+    padding: 25px 25px;
+    display: flex;
+    display: inline-block;
+    margin: 105px 0 0 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+}
+
+.aboutMeTitle {
+    font-size: 1.3em;
+}
+
+.aboutMeContent {
+    margin: 5px 0;
+    font-size: 1.1em;
 }
