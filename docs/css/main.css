@@ -35,12 +35,8 @@ main {
 }
 
 .socialLinks a {
-    margin: 5px;
+    margin: 12px;
     display: inline-block;
-}
-
-.socialLinks img {
-    color: black;
 }
 
 .socialLinks svg {
