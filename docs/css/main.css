@@ -27,6 +27,13 @@ main {
     width: 100%;
 }
 
+/*temporary styling for filler text*/
+.navbar p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
 .socialLinks a {
     margin: 5px;
     display: inline-block;
@@ -51,6 +58,7 @@ main {
     margin: 10px auto;
     text-align: center;
     margin: 25px auto;
+    color: #5f52f2;
 }
 
 .pageHeadingPortrait {
@@ -78,7 +86,6 @@ h3 {
     font-size: 1.6em;
     color: #5f52f2;
     margin-bottom: 20px;
-    margin-top: 10px;
 }
 
 .aboutMe p {
@@ -99,8 +106,13 @@ h2 {
     margin-left: 10px;
 }
 
-.sectionWrapper h4 {
+.locationDate {
     font-size: 1.1em;
+}
+
+.locationHeading {
+    margin-bottom: 20px;
+    margin-top: 7px;
 }
 
 .sectionWrapper p {
