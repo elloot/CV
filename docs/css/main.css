@@ -19,10 +19,10 @@ main {
     height: 55px;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #5f52f2;
     justify-content: space-between;
     padding: 0 10%;
-    border-bottom: 2px solid black;
+    /*border-bottom: 2px solid black;*/
     top: 0;
     position: fixed;
     width: 100%;
@@ -88,7 +88,7 @@ h2 {
     margin-top: 45px;
     width: 55%;
 }
-.sectionWrapper div {
+.sectionWrapper > div {
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -99,4 +99,22 @@ h2 {
 
 .sectionWrapper p {
     font-size: 1.2em;
+}
+
+.skillbar {
+    height: 7px;
+    width: 500px;
+    background-color: var(--colorLightGray);
+    border-radius: 50px;
+    margin-top: 45px;
+}
+
+.skillbarStroke {
+    height: 100%;
+    background-color: #5f52f2;
+    border-radius: 50px;
+}
+
+.skillbarJava {
+    width: 75%;
 }
