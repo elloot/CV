@@ -95,12 +95,14 @@ h3 {
 
 h2 {
     font-size: 2.8em;
+    margin-bottom: 40px;
 }
 
 .sectionWrapper {
-    margin-top: 45px;
+    margin-top: 75px;
     width: 55%;
 }
+
 .sectionWrapper > div {
     margin-top: 20px;
     margin-left: 10px;
@@ -115,7 +117,7 @@ h2 {
     margin-top: 7px;
 }
 
-.sectionWrapper p {
+.locationDetails {
     font-size: 1.2em;
     margin-bottom: 30px;
 }
@@ -125,7 +127,7 @@ h2 {
     width: 500px;
     background-color: var(--colorLightGray);
     border-radius: 50px;
-    margin-top: 45px;
+    margin-top: 35px;
 }
 
 .skillbarStroke {
@@ -136,4 +138,16 @@ h2 {
 
 .skillbarJava {
     width: 75%;
+}
+
+.skillbarMath {
+    width: 80%;
+}
+
+.skillbarAR {
+    width: 70%;
+}
+
+.skillbarHeading {
+    margin-top: 40px;
 }
