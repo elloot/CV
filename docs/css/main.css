@@ -114,6 +114,11 @@ h2 {
     margin-top: 7px;
 }
 
+.locationHeading span {
+    color: black;
+    font-weight: 500;
+}
+
 .locationDetails {
     font-size: 1.2em;
     margin-bottom: 30px;
