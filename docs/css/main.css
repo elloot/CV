@@ -1,5 +1,6 @@
 html {
     --colorLightGray: rgb(163, 163, 163);
+    --colorPurple: rgb(95, 82, 242);
 }
 
 * {
@@ -19,7 +20,7 @@ main {
     height: 55px;
     display: flex;
     align-items: center;
-    background-color: #5f52f2;
+    background-color: var(--colorPurple);
     justify-content: space-between;
     padding: 0 10%;
     top: 0;
@@ -54,7 +55,7 @@ main {
     margin: 10px auto;
     text-align: center;
     margin: 25px auto;
-    color: #5f52f2;
+    color: var(--colorPurple);
 }
 
 .pageHeadingPortrait {
@@ -73,14 +74,13 @@ main {
     display: flex;
     display: inline-block;
     margin: 105px 0 0 0;
-    /*border: 2px solid var(--colorLightGray);*/
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     border-radius: 10px;
 }
 
 h3 {
     font-size: 1.6em;
-    color: #5f52f2;
+    color: var(--colorPurple);
     margin-bottom: 20px;
 }
 
@@ -128,7 +128,7 @@ h2 {
 
 .skillbarStroke {
     height: 100%;
-    background-color: #5f52f2;
+    background-color: var(--colorPurple);
     border-radius: 50px;
 }
 
@@ -146,4 +146,13 @@ h2 {
 
 .skillbarHeading {
     margin-top: 40px;
+}
+
+.contactItem h3 {
+    color: black;
+    display: inline-block;
+}
+
+.contactIcon {
+    fill: var(--colorPurple);
 }
