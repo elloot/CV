@@ -1,5 +1,5 @@
 html {
-    --colorLightGray: rgb(163, 163, 163);
+    --colorLightGray: rgb(149, 140, 161);
     --colorPurple: rgb(95, 82, 242);
 }
 
@@ -106,6 +106,7 @@ h2 {
 
 .locationDate {
     font-size: 1.1em;
+    color: var(--colorLightGray);
 }
 
 .locationHeading {
@@ -148,11 +149,28 @@ h2 {
     margin-top: 40px;
 }
 
-.contactItem h3 {
+.contactItem {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contactItem a {
+    font-size: 1.6rem;
+    font-weight: bold;
     color: black;
-    display: inline-block;
+    margin-bottom: 0;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.contactItem a:hover {
+    color: var(--colorPurple);
+    text-decoration: underline var(--colorPurple);
 }
 
 .contactIcon {
     fill: var(--colorPurple);
+    margin-right: 12px;
 }
