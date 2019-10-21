@@ -46,7 +46,7 @@ main {
 
 .pageHeading {
     align-items: center;
-    margin: 75px auto;
+    margin: 150px auto 115px auto;
 }
 
 .pageHeading h1 {
@@ -54,7 +54,7 @@ main {
     width: 80%;
     margin: 10px auto;
     text-align: center;
-    margin: 25px auto;
+    margin: 0px auto 25px auto;
     color: var(--colorPurple);
 }
 
@@ -73,7 +73,7 @@ main {
     padding: 25px 25px;
     display: flex;
     display: inline-block;
-    margin: 105px 0 0 0;
+    /*margin: 105px 0 0 0;*/
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     border-radius: 10px;
 }
