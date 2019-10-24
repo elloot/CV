@@ -12,7 +12,7 @@ html {
 main {
     width: 75%;
     margin: 0 auto;
-    font-family: "Lato";
+    font-family: "Nunito";
 }
 
 .navbar {
@@ -26,13 +26,6 @@ main {
     top: 0;
     position: fixed;
     width: 100%;
-}
-
-/*temporary styling for filler text*/
-.navbar p {
-    color: white;
-    font-weight: 600;
-    font-size: 1.1em;
 }
 
 .socialLinks a {
